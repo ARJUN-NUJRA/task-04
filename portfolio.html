@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>review task-2</title>
+    <style>
+        *{
+            padding: 0;
+            margin:0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .container{
+            width:90%;
+            margin:0 auto;
+
+    	}
+        .header{
+           display: flex;
+           padding-top: 24px;
+           justify-content: space-between;
+           align-items:center;
+        }
+        .main{
+            background-image: url(image/hero-bg.jpg);
+            width:100%;
+            height:100vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+	
+	    
+        .head h1{
+            font-size:34px;
+            color: #fff;
+      
+            
+        }
+   
+        .head span{
+            color:rgb(236, 178, 31);
+        }
+
+
+        .menubar{
+		display:flex;
+		font-family:'Raleway', sans-serif;
+  
+      	}
+	    .nav1 a{
+        font-size:18px;
+	    color:rgb(255, 255, 255);
+        padding:0 18px;
+	    }
+	
+        .menubar>li a:hover{
+        color:rgb(236, 178, 31);
+        }
+        
+        .nav1>a.active{
+        color:rgb(236, 178, 31);
+        }
+        button{
+          padding: 10px 18px;
+          border:solid 2px rgb(236, 178, 31);
+          background-color: transparent;
+          color:#fff;
+          border-radius: 5px;
+        }
+        button:hover{
+            background-color: rgb(236, 178, 31);
+            color:gray;
+            transition: 0.5s;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+            <div class="header">
+                <div class= "head">
+                    <h1>GP<span>.</span></h1>
+                 </div>
+
+
+                    <ul class="menubar">
+                    <li class="nav1"><a href="#"class="active">Home</a></li>
+                    <li class="nav1"><a href="#">About</a></li>
+                    <li class="nav1"><a href="#">Service</a></li>
+                    <li class="nav1"><a href="#">Portfolio</a></li>
+                    <li class="nav1"><a href="#">Team</a></li>
+                    <li class="nav1"><a href="#">Drop Down</a></li>
+                    <li class="nav1"><a href="#">Contact</a></li>
+                    </ul>                
+                       <div class="btn">
+                          <button>Get Started</button>
+                       </div>
+                 </div>
+            </div>
+    </section>
+</body>
+</html>
